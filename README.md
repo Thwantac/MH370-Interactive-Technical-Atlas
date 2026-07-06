@@ -75,6 +75,16 @@ Full discussion:
 
 - [Core waypoints KML](maps/google-earth/mh370-core-waypoints.kml)
 
+#### Core waypoints preview
+
+![MH370 Core Waypoints Google Earth Preview](maps/images/mh370-core-waypoints-preview.png)
+
+This preview shows the first Google Earth layer generated from the atlas location database. It currently includes the official waypoint coordinates for VENLI, IGARI, and IKUKO.
+
+To open the interactive layer in Google Earth, download:
+
+- [Core waypoints KML](maps/google-earth/mh370-core-waypoints.kml)
+
 ## Project Structure
 
 - `evidence/` — source documents and reference material
