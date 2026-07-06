@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>MH370 Core Waypoints</name>
+  <description>Official waypoint coordinates from the MH370 Interactive Technical Atlas.</description>
+  <Folder>
+    <name>Official waypoint coordinates</name>
+    <Placemark>
+      <name>VENLI</name>
+      <description><![CDATA[
+        <b>Source:</b> SRC-0001<br/>
+        <b>Confidence:</b> high<br/>
+        <b>Notes:</b> Official report lists VENLI coordinate as 062846N 1024900E; route M765 between VENLI and IGARI.
+      ]]></description>
+      <Point>
+        <coordinates>102.816667,6.479444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>IGARI</name>
+      <description><![CDATA[
+        <b>Source:</b> SRC-0001<br/>
+        <b>Confidence:</b> high<br/>
+        <b>Notes:</b> Official report lists IGARI coordinate as 065612N 1033506E; MH370 passed IGARI at 1720:31 UTC.
+      ]]></description>
+      <Point>
+        <coordinates>103.585000,6.936667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>IKUKO</name>
+      <description><![CDATA[
+        <b>Source:</b> SRC-0001<br/>
+        <b>Confidence:</b> high<br/>
+        <b>Notes:</b> Official report lists IKUKO coordinate as 054512N 1031324E; route segment R208 between IKUKO and IGARI.
+      ]]></description>
+      <Point>
+        <coordinates>103.223333,5.753333,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
