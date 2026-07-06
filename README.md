@@ -6,6 +6,18 @@ This project is an evidence-first technical atlas and archive concerning the dis
 
 The aim is to preserve, organise, map, and explain publicly available evidence in a structured, traceable, and non-sensational manner.
 
+## Status and Scope
+
+This is a continuing work in progress.
+
+It is a lay research project, not an official investigation, legal finding, or claim to special knowledge.
+
+The project is being built as an exercise in disciplined data gathering, source tracing, evidentiary weighting, and technical-methodological analysis. Its purpose is to organise and compare evidence streams, assumptions, uncertainties, and competing interpretations in a transparent way.
+
+The atlas should be read as a structured research notebook and technical archive. It does not assert a final conclusion about the disappearance of MH370.
+
+Where possible, claims are separated into levels of evidence strength, from primary official evidence through to contested or speculative material.
+
 The project does not advocate a preferred conclusion. It is designed to keep official evidence, technical interpretation, assumptions, contested claims, and speculation clearly separated.
 
 ## Core Principles
