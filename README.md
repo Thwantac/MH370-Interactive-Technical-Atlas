@@ -28,15 +28,21 @@ This preview shows the current Google Earth visual layer associated with the atl
 
 ### Open the interactive Google Earth layer
 
-- [Download / open the current Google Earth KML layer](https://raw.githubusercontent.com/Thwantac/MH370-Interactive-Technical-Atlas/main/maps/google-earth/mh370-core-waypoints.kml)
+For the easiest viewing option, download the packaged Google Earth file:
+
+- [Download the current Google Earth KMZ map layer](https://raw.githubusercontent.com/Thwantac/MH370-Interactive-Technical-Atlas/main/maps/google-earth/mh370-core-waypoints.kmz)
 
 To use it:
 
-1. Click **Download / open the current Google Earth KML layer**.
-2. If it opens as text in the browser, save the page as a `.kml` file, or right-click the link and choose **Download Linked File**.
-3. Open the downloaded `.kml` file in **Google Earth Pro**.
+1. Click the KMZ link above.
+2. If the file downloads, double-click it to open in Google Earth Pro.
+3. If the browser opens a download prompt, save the `.kmz` file and then open it in Google Earth Pro.
 
-The KML file is the interactive Google Earth layer. The preview image above is only a static screenshot.
+The KMZ file is the easiest interactive Google Earth layer for general viewers.
+
+The underlying source KML file is also available here for technical users:
+
+- [Core waypoints KML source file](maps/google-earth/mh370-core-waypoints.kml)
 
 ## Core Principles
 
