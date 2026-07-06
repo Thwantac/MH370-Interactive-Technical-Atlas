@@ -26,23 +26,32 @@ The project does not advocate a preferred conclusion. It is designed to keep off
 
 This preview shows the current Google Earth visual layer associated with the atlas. At this early stage, the map is a work-in-progress visual aid and should not be read as a final reconstruction.
 
-### Open the interactive Google Earth layer
+### Open the interactive Google Earth atlas
 
-For the easiest viewing option, download the packaged Google Earth file:
+Best option: open the live Google Earth link.
 
-- [Download the current Google Earth KMZ map layer](https://raw.githubusercontent.com/Thwantac/MH370-Interactive-Technical-Atlas/main/maps/google-earth/mh370-core-waypoints.kmz)
+- [Open the live MH370 Google Earth atlas](https://raw.githubusercontent.com/Thwantac/MH370-Interactive-Technical-Atlas/main/maps/google-earth/mh370-atlas-live.kml)
+
+This live link points Google Earth to the current master atlas file on GitHub. If the atlas is updated later, Google Earth can refresh the network link and retrieve the latest available version.
 
 To use it:
 
-1. Click the KMZ link above.
-2. If the file downloads, double-click it to open in Google Earth Pro.
-3. If the browser opens a download prompt, save the `.kmz` file and then open it in Google Earth Pro.
+1. Click **Open the live MH370 Google Earth atlas**.
+2. If the browser opens the file as text, right-click the link instead and choose **Download Linked File**.
+3. Open the downloaded `.kml` file in **Google Earth Pro**.
+4. In Google Earth, use the checkboxes in the left sidebar to turn layers on or off.
 
-The KMZ file is the easiest interactive Google Earth layer for general viewers.
+Snapshot option:
 
-The underlying source KML file is also available here for technical users:
+- [Download the current Google Earth KMZ snapshot](https://raw.githubusercontent.com/Thwantac/MH370-Interactive-Technical-Atlas/main/maps/google-earth/mh370-atlas-master.kmz)
 
-- [Core waypoints KML source file](maps/google-earth/mh370-core-waypoints.kml)
+The KMZ snapshot is easier to open, but it will not update automatically. Download it again when the atlas changes.
+
+Technical source files:
+
+- [Master atlas KML source](maps/google-earth/mh370-atlas-master.kml)
+- [Live network-link KML source](maps/google-earth/mh370-atlas-live.kml)
+- [Original core waypoints KML source](maps/google-earth/mh370-core-waypoints.kml)
 
 ## Core Principles
 

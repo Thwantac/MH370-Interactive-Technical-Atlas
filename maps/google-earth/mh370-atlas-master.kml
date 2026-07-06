@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>MH370 Interactive Technical Atlas</name>
+  <description><![CDATA[
+    Evidence-first Google Earth atlas for MH370 research.
+    This is a work-in-progress visual aid, not a final reconstruction.
+    Layers are separated by evidence type and confidence.
+  ]]></description>
+
+  <Style id="officialWaypointStyle">
+    <IconStyle>
+      <scale>1.1</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0.9</scale>
+    </LabelStyle>
+  </Style>
+
+  <Style id="officialRouteLineStyle">
+    <LineStyle>
+      <color>ff00ffff</color>
+      <width>3</width>
+    </LineStyle>
+  </Style>
+
+  <Style id="placeholderLineStyle">
+    <LineStyle>
+      <color>9900ffff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+
+  <Folder>
+    <name>00 Read Me First</name>
+    <open>1</open>
+    <Placemark>
+      <name>Atlas status and caution</name>
+      <description><![CDATA[
+        <b>MH370 Interactive Technical Atlas</b><br/><br/>
+        This Google Earth file is a continuing work in progress.<br/><br/>
+        It is a lay research and methodology project, not an official investigation,
+        legal finding, or claim to special knowledge.<br/><br/>
+        Layers are separated so that official evidence, technical interpretation,
+        contested claims, and speculative hypotheses are not visually merged without
+        labelling.<br/><br/>
+        Current content is early-stage and incomplete.
+      ]]></description>
+      <Point>
+        <coordinates>103.585000,6.936667,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>01 Official Waypoints</name>
+    <open>1</open>
+
+    <Placemark>
+      <name>VENLI</name>
+      <styleUrl>#officialWaypointStyle</styleUrl>
+      <description><![CDATA[
+        <b>Type:</b> Official waypoint<br/>
+        <b>Source:</b> SRC-0001<br/>
+        <b>Confidence:</b> high<br/>
+        <b>Coordinate in official report:</b> 062846N 1024900E<br/>
+        <b>Decimal:</b> 6.479444, 102.816667<br/>
+        <b>Notes:</b> Route M765 between VENLI and IGARI.
+      ]]></description>
+      <Point>
+        <coordinates>102.816667,6.479444,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IGARI</name>
+      <styleUrl>#officialWaypointStyle</styleUrl>
+      <description><![CDATA[
+        <b>Type:</b> Official waypoint<br/>
+        <b>Source:</b> SRC-0001<br/>
+        <b>Confidence:</b> high<br/>
+        <b>Coordinate in official report:</b> 065612N 1033506E<br/>
+        <b>Decimal:</b> 6.936667, 103.585000<br/>
+        <b>Notes:</b> MH370 passed IGARI at 17:20:31 UTC according to the official report.
+      ]]></description>
+      <Point>
+        <coordinates>103.585000,6.936667,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>IKUKO</name>
+      <styleUrl>#officialWaypointStyle</styleUrl>
+      <description><![CDATA[
+        <b>Type:</b> Official waypoint<br/>
+        <b>Source:</b> SRC-0001<br/>
+        <b>Confidence:</b> high<br/>
+        <b>Coordinate in official report:</b> 054512N 1031324E<br/>
+        <b>Decimal:</b> 5.753333, 103.223333<br/>
+        <b>Notes:</b> Route segment R208 between IKUKO and IGARI.
+      ]]></description>
+      <Point>
+        <coordinates>103.223333,5.753333,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>02 Official Route / Airway Context</name>
+    <open>1</open>
+
+    <Placemark>
+      <name>M765 context: VENLI to IGARI</name>
+      <styleUrl>#officialRouteLineStyle</styleUrl>
+      <description><![CDATA[
+        <b>Type:</b> Official route / airway context<br/>
+        <b>Source:</b> SRC-0001<br/>
+        <b>Evidence level:</b> A<br/>
+        <b>Notes:</b> The official report lists RNAV route M765 between VENLI and IGARI.
+        This line is route context, not a complete reconstruction of MH370's final path.
+      ]]></description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          102.816667,6.479444,0
+          103.585000,6.936667,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>R208 context: IKUKO to IGARI</name>
+      <styleUrl>#officialRouteLineStyle</styleUrl>
+      <description><![CDATA[
+        <b>Type:</b> Official route / airway context<br/>
+        <b>Source:</b> SRC-0001<br/>
+        <b>Evidence level:</b> A<br/>
+        <b>Notes:</b> The official report lists route segment R208 between IKUKO and IGARI.
+        This line is route context, not a complete reconstruction of MH370's final path.
+      ]]></description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          103.223333,5.753333,0
+          103.585000,6.936667,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>03 Civil ATC / Secondary Radar</name>
+    <open>0</open>
+    <description>Future layer for civil ATC, transponder, Mode S, and secondary radar evidence.</description>
+  </Folder>
+
+  <Folder>
+    <name>04 Military Radar</name>
+    <open>0</open>
+    <description>Future layer for military radar detections and uncertainty notes.</description>
+  </Folder>
+
+  <Folder>
+    <name>05 SATCOM / Inmarsat</name>
+    <open>0</open>
+    <description>Future layer for BTO/BFO, SATCOM log-ons, arcs, and Inmarsat-related analysis.</description>
+  </Folder>
+
+  <Folder>
+    <name>06 Search Areas</name>
+    <open>0</open>
+    <description>Future layer for surface search, underwater search, and Ocean Infinity / ATSB search areas.</description>
+  </Folder>
+
+  <Folder>
+    <name>07 Debris Finds</name>
+    <open>0</open>
+    <description>Future layer for confirmed, probable, and rejected debris finds.</description>
+  </Folder>
+
+  <Folder>
+    <name>08 WSPR Experimental / Contested</name>
+    <open>0</open>
+    <description>Future layer for WSPR-related claims and tests. This should remain clearly labelled as experimental and contested unless independently validated.</description>
+  </Folder>
+
+  <Folder>
+    <name>09 Future Declassified Evidence</name>
+    <open>0</open>
+    <description>Future layer for any declassified military, satellite, radar, intelligence, or government records.</description>
+  </Folder>
+
+  <Folder>
+    <name>10 Notes and Cautions</name>
+    <open>0</open>
+    <description>General map cautions, uncertainty notes, and source-handling rules.</description>
+  </Folder>
+
+</Document>
+</kml>
