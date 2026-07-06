@@ -1,1 +1,4 @@
 location_id,name,latitude,longitude,type,source_id,confidence,notes
+LOC-0001,VENLI,6.479444,102.816667,waypoint,SRC-0001,high,Official report lists VENLI coordinate as 062846N 1024900E; route M765 between VENLI and IGARI.
+LOC-0002,IGARI,6.936667,103.585000,waypoint,SRC-0001,high,Official report lists IGARI coordinate as 065612N 1033506E; MH370 passed IGARI at 1720:31 UTC.
+LOC-0003,IKUKO,5.753333,103.223333,waypoint,SRC-0001,high,Official report lists IKUKO coordinate as 054512N 1031324E; route segment R208 between IKUKO and IGARI.
