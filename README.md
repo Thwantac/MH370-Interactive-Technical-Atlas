@@ -32,15 +32,11 @@ This preview shows the current Google Earth visual layer associated with the atl
 
 To use it:
 
-1. Click the link above.
-2. Save the `.kml` file if the browser does not download it automatically.
-3. Open the `.kml` file in Google Earth Pro.
+1. Click **Download / open the current Google Earth KML layer**.
+2. If it opens as text in the browser, save the page as a `.kml` file, or right-click the link and choose **Download Linked File**.
+3. Open the downloaded `.kml` file in **Google Earth Pro**.
 
-Current layer contents:
-
-- VENLI
-- IGARI
-- IKUKO
+The KML file is the interactive Google Earth layer. The preview image above is only a static screenshot.
 
 ## Core Principles
 
