@@ -2,7 +2,7 @@
 
 ## 2026-07-06
 
-- Created active local MacBook project folder at `/Users/thwantac/Projects/MH370-Interactive-Technical-Atlas`.
+- Created active local MacBook project folder at `~/Projects/MH370-Interactive-Technical-Atlas`.
 - Created initial project structure: `evidence/`, `data/`, `maps/`, `notes/`, `scripts/`, and `site/`.
 - Created project `README.md`.
 - Initialised core CSV database files.

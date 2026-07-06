@@ -6,4 +6,4 @@ His work, including the now-closed Daily Airline News podcast, helped make compl
 
 The MH370 Interactive Technical Atlas is built in that same spirit of curiosity, careful source-tracing, and respect for aviation history, safety, and the people affected by unresolved aviation events.
 
-Dimitri.
+The project author.

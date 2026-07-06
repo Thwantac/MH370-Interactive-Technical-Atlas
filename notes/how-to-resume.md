@@ -4,7 +4,7 @@
 
 The active local MacBook project is:
 
-`/Users/thwantac/Projects/MH370-Interactive-Technical-Atlas`
+`~/Projects/MH370-Interactive-Technical-Atlas`
 
 Do not work directly in the old iCloud archive folders.
 
