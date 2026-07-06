@@ -28,24 +28,23 @@ This preview shows the current Google Earth visual layer associated with the atl
 
 ### Open the Google Earth Atlas
 
-Best option:
+Best option for most viewers:
 
-- [Open the live Google Earth Atlas](https://raw.githubusercontent.com/Thwantac/MH370-Interactive-Technical-Atlas/main/maps/google-earth/mh370-atlas-live.kml)
-
-This file opens the current MH370 atlas in Google Earth Pro. It links to the latest master atlas file on GitHub, so the map can be refreshed when the atlas is updated.
+- [Download the Google Earth Atlas KMZ file](https://raw.githubusercontent.com/Thwantac/MH370-Interactive-Technical-Atlas/main/maps/google-earth/mh370-atlas-master.kmz)
 
 To use it:
 
-1. Click **Open the live Google Earth Atlas**.
-2. If the browser opens the file as text, right-click the link and choose **Download Linked File**.
-3. Open the downloaded `.kml` file in **Google Earth Pro**.
-4. In Google Earth, use the checkboxes in the left sidebar to turn atlas layers on or off.
+1. Click **Download the Google Earth Atlas KMZ file**.
+2. Open the downloaded `.kmz` file in **Google Earth Pro**.
+3. In Google Earth, use the checkboxes in the left sidebar to turn atlas layers on or off.
 
-Snapshot option:
+This KMZ file is the easiest way to view the atlas.
 
-- [Download the Google Earth Atlas snapshot](https://raw.githubusercontent.com/Thwantac/MH370-Interactive-Technical-Atlas/main/maps/google-earth/mh370-atlas-master.kmz)
+Live update option:
 
-The snapshot is easier to open, but it will not update automatically. Download it again when the atlas changes.
+- [Live Google Earth Atlas KML link](https://raw.githubusercontent.com/Thwantac/MH370-Interactive-Technical-Atlas/main/maps/google-earth/mh370-atlas-live.kml)
+
+The live KML link points Google Earth to the latest master atlas file on GitHub. Some browsers may display it as text. To use it, right-click the link, choose **Download Linked File**, then open the downloaded `.kml` file in Google Earth Pro.
 
 Technical source files:
 
