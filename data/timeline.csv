@@ -1,2 +1,2 @@
-event_id,date_utc,time_utc,date_local,time_local,event,location,source_id,confidence,notes
-EVT-0001,2014-03-07,16:42,2014-03-08,00:42,"MH370 departs Kuala Lumpur International Airport for Beijing.","Kuala Lumpur International Airport, Malaysia",SRC-0001,A,"Scheduled passenger flight MAS370/MH370, aircraft Boeing 777-200ER registration 9M-MRO."
+event_id,date_utc,time_utc,date_local,time_local,event,location,source_id,source_detail,confidence,notes
+EVT-0001,2014-03-07,16:42,2014-03-08,00:42,"MH370 departs Kuala Lumpur International Airport for Beijing.","Kuala Lumpur International Airport, Malaysia",SRC-0001,"",A,"Scheduled passenger flight MAS370/MH370, aircraft Boeing 777-200ER registration 9M-MRO."
