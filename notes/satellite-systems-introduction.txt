@@ -1,0 +1,185 @@
+MH370 Satellite, ACARS, SATCOM, Inmarsat, and Radar Systems — Introduction
+
+This note explains the main communication and detection systems involved in the MH370 evidence record.
+
+1. Big Picture
+
+For MH370, several systems are often discussed together, but they are not the same thing.
+
+ACARS
+- Aircraft data messaging system.
+- Sends operational, maintenance, fuel, and flight-related messages.
+- ACARS is the message system, not the transmission path itself.
+
+SATCOM
+- The aircraft's satellite communication system.
+- Can carry ACARS data, voice calls, and technical log-on/log-off messages.
+- SATCOM refers to the aircraft satellite communication hardware and link.
+
+Inmarsat
+- The satellite network and service provider involved in MH370.
+- Logged the satellite communications between the aircraft SATCOM terminal, the Inmarsat satellite, and the ground station in Perth.
+- Inmarsat did not track the aircraft like GPS; it recorded communication events and signal properties.
+
+Radar
+- Ground-based detection system.
+- Civilian radar used transponder/Mode S information.
+- Military radar could detect a radar return or "blip" after the civil transponder return disappeared.
+
+Military satellites
+- Not part of the core official evidence timeline at this stage.
+- Public claims about military satellite imagery or intelligence systems should be treated separately unless supported by primary official evidence.
+
+2. ACARS
+
+ACARS means Aircraft Communications Addressing and Reporting System.
+
+It is best thought of as the aircraft's digital messaging system.
+
+It can transmit information such as:
+- aircraft status
+- maintenance information
+- fuel data
+- operational information
+- flight-related reports, depending on configuration
+
+ACARS can transmit via:
+- VHF radio
+- SATCOM
+
+In MH370's case, the relevant ACARS messages were being sent through SATCOM.
+
+Important distinction:
+
+ACARS stopped sending expected reports, but SATCOM later still communicated.
+
+3. SATCOM
+
+SATCOM means Satellite Communications.
+
+On the aircraft, SATCOM refers to the satellite communication equipment and link, including:
+- aircraft SATCOM terminal
+- antenna
+- satellite data unit
+- related avionics
+
+SATCOM can carry:
+- ACARS data
+- voice calls
+- other aircraft data services
+- technical log-on/log-off messages
+
+For MH370, the key point is that the aircraft stopped sending expected ACARS reports, but the SATCOM system later produced technical communication events.
+
+Key events:
+- 17:07 UTC — standard ACARS report sent via SATCOM
+- 17:37 UTC — expected ACARS report not received
+- 18:07 UTC — expected ACARS report not received
+- 18:25 UTC — SATCOM log-on request from aircraft
+- 00:19 UTC — final SATCOM log-on / last SATCOM transmission
+
+4. Inmarsat
+
+Inmarsat was the satellite communications network involved.
+
+The basic path was:
+
+Aircraft SATCOM terminal
+→ Inmarsat satellite
+→ Ground Earth Station in Perth
+→ Inmarsat logs
+
+Inmarsat's importance lies in the technical communication records, especially the so-called "handshakes".
+
+These handshakes were not full conversations. They were more like technical checks between the aircraft SATCOM terminal and the satellite network.
+
+They showed that the aircraft's SATCOM terminal was still communicating after normal ACARS reporting had stopped.
+
+From timing and frequency properties of these communications, investigators derived possible aircraft paths and distance arcs.
+
+Important distinction:
+
+Inmarsat did not provide an exact GPS-style position of MH370.
+
+It provided signal data from which possible locations and routes could be inferred.
+
+5. Radar
+
+Radar evidence is separate from ACARS, SATCOM, and Inmarsat.
+
+Civilian secondary radar:
+- depends on aircraft transponder replies
+- can show identity, altitude, and position if the transponder is functioning
+- MH370's Mode S / secondary radar symbol disappeared around 17:20–17:21 UTC
+
+Military radar:
+- can detect a primary radar return or "blip"
+- may continue to detect an aircraft even when the transponder is no longer providing civil radar information
+- the Malaysian report cautions that altitude and speed from the military radar data were subject to inherent error
+- the more useful military radar data were the latitude and longitude positions
+
+Therefore, military radar events in this project should be worded cautiously.
+
+6. Military Satellites
+
+Military satellites are not currently part of the core official MH370 evidence timeline being built in this project.
+
+There have been public discussions and claims about possible military satellite or intelligence observations, but these should not be mixed into the primary evidence timeline unless supported by primary official sources.
+
+For this project:
+- official civil ATC records belong in the main timeline
+- official civil radar evidence belongs in the main timeline
+- official military radar evidence belongs in the main timeline, with caution
+- official SATCOM/Inmarsat evidence belongs in the main timeline
+- unsupported military satellite claims should be placed separately under hypotheses or commentary, not treated as established fact
+
+7. Simple Mental Model
+
+ACARS = aircraft data messages
+
+SATCOM = aircraft satellite communication equipment and link
+
+Inmarsat = satellite network/provider that carried and logged the SATCOM signals
+
+Radar = ground-based detection of the aircraft
+
+Military radar = ground-based defence radar evidence after civil radar/transponder loss
+
+Military satellites = not part of the core official evidence timeline at this stage
+
+8. Simple Diagrams
+
+Normal aircraft data path:
+
+Aircraft systems
+→ ACARS message
+→ VHF or SATCOM
+→ airline / operations systems
+
+MH370 satellite evidence path:
+
+Aircraft SATCOM terminal
+→ Inmarsat satellite
+→ Ground Earth Station, Perth
+→ Inmarsat logs
+→ handshake / timing / frequency analysis
+
+Radar evidence path:
+
+Aircraft return or transponder
+→ civil radar and military radar
+→ ATC or military radar records
+
+9. Key MH370 Point
+
+The critical technical sequence is:
+
+17:07 UTC — last normal ACARS report via SATCOM
+17:37 UTC — expected ACARS report not received
+18:07 UTC — expected ACARS report not received
+18:25 UTC — SATCOM log-on request from aircraft
+00:19 UTC — final SATCOM transmission
+
+This means normal aircraft reporting stopped, but the satellite communication system later communicated again.
+
+That is one of the central technical mysteries in the MH370 evidence record.
