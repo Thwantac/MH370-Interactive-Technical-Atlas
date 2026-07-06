@@ -77,6 +77,7 @@ Full discussion:
 
 ### Notes
 
+- [Proposed data sources](notes/proposed-data-sources.md)
 - [Satellite systems introduction](notes/satellite-systems-introduction.txt)
 - [Working notes](notes/working-notes.md)
 - [How to resume](notes/how-to-resume.md)
