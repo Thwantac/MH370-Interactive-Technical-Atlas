@@ -12,7 +12,7 @@
     <IconStyle>
       <scale>1.1</scale>
       <Icon>
-        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
       </Icon>
     </IconStyle>
     <LabelStyle>
@@ -22,8 +22,8 @@
 
   <Style id="officialRouteLineStyle">
     <LineStyle>
-      <color>ff00ffff</color>
-      <width>3</width>
+      <color>ff0000ff</color>
+      <width>4</width>
     </LineStyle>
   </Style>
 
