@@ -20,6 +20,16 @@ Where possible, claims are separated into levels of evidence strength, from prim
 
 The project does not advocate a preferred conclusion. It is designed to keep official evidence, technical interpretation, assumptions, contested claims, and speculation clearly separated.
 
+## Current Map Preview
+
+![MH370 Google Earth waypoint and evidence preview](maps/images/mh370-core-waypoints-preview.png)
+
+This preview shows the current Google Earth visual layer associated with the atlas. At this early stage, the map is a work-in-progress visual aid and should not be read as a final reconstruction.
+
+The interactive Google Earth file is available here:
+
+- [Core waypoints KML](maps/google-earth/mh370-core-waypoints.kml)
+
 ## Core Principles
 
 1. Primary sources are preferred.
@@ -72,16 +82,6 @@ Full discussion:
 - [How to resume](notes/how-to-resume.md)
 
 ### Google Earth outputs
-
-- [Core waypoints KML](maps/google-earth/mh370-core-waypoints.kml)
-
-#### Core waypoints preview
-
-![MH370 Core Waypoints Google Earth Preview](maps/images/mh370-core-waypoints-preview.png)
-
-This preview shows the first Google Earth layer generated from the atlas location database. It currently includes the official waypoint coordinates for VENLI, IGARI, and IKUKO.
-
-To open the interactive layer in Google Earth, download:
 
 - [Core waypoints KML](maps/google-earth/mh370-core-waypoints.kml)
 
