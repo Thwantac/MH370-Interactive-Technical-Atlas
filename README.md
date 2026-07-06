@@ -26,9 +26,21 @@ The project does not advocate a preferred conclusion. It is designed to keep off
 
 This preview shows the current Google Earth visual layer associated with the atlas. At this early stage, the map is a work-in-progress visual aid and should not be read as a final reconstruction.
 
-The interactive Google Earth file is available here:
+### Open the interactive Google Earth layer
 
-- [Core waypoints KML](maps/google-earth/mh370-core-waypoints.kml)
+- [Download / open the current Google Earth KML layer](https://raw.githubusercontent.com/Thwantac/MH370-Interactive-Technical-Atlas/main/maps/google-earth/mh370-core-waypoints.kml)
+
+To use it:
+
+1. Click the link above.
+2. Save the `.kml` file if the browser does not download it automatically.
+3. Open the `.kml` file in Google Earth Pro.
+
+Current layer contents:
+
+- VENLI
+- IGARI
+- IKUKO
 
 ## Core Principles
 
